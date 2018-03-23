@@ -5,7 +5,7 @@ angular.module('video-player')
   // basically all bindings
   // expects specific name of input
     binding: {
-      videos: ''
+      videos: '<'
     }, // and template
     templateUrl: 'src/templates/videoList.html'
   });
