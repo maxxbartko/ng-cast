@@ -4,8 +4,12 @@ angular.module('video-player')
   // specifies what data is coming in
   // basically all bindings
   // expects specific name of input
-    binding: {
+  
+    bindings: {
       videos: '<'
-    }, // and template
+    }, // and templates
+    controller: function () {
+  
+    },
     templateUrl: 'src/templates/videoList.html'
   });

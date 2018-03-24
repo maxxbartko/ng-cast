@@ -1,8 +1,7 @@
 angular.module('video-player', [])
   .component('app', {
-    controller: () => {
+    controller: function() {
       this.videos = exampleVideoData;
-      console.log(this.videos);
     },
     templateUrl: 'src/templates/app.html'
   });
